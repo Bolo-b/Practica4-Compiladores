@@ -23,16 +23,16 @@ WS          [ \t\r\n]+
 
 {WS}                    { /* ignorar espacios */ }
 
-"int"                   { return TOK_KW_INT; }
-"float"                 { return TOK_KW_FLOAT; }
-"double"                { return TOK_KW_DOUBLE; }
-"char"                  { return TOK_KW_CHAR; }
-"void"                  { return TOK_KW_VOID; }
-"if"                    { return TOK_KW_IF; }
-"else"                  { return TOK_KW_ELSE; }
-"while"                 { return TOK_KW_WHILE; }
-"for"                   { return TOK_KW_FOR; }
-"return"                { return TOK_KW_RETURN; }
+"tlapohualli"           { return TOK_KW_INT; }
+"tlapohualme"           { return TOK_KW_FLOAT; }
+"miec_tlapohualme"      { return TOK_KW_DOUBLE; }
+"tlahcuiloli"           { return TOK_KW_CHAR; }
+"cacticac"              { return TOK_KW_VOID; }
+"intla"                 { return TOK_KW_IF; }
+"niman"                 { return TOK_KW_ELSE; }
+"ihcuac"                { return TOK_KW_WHILE; }
+"cecen"                 { return TOK_KW_FOR; }
+"cuepa "                { return TOK_KW_RETURN; }
 "break"                 { return TOK_KW_BREAK; }
 "continue"              { return TOK_KW_CONTINUE; }
 
