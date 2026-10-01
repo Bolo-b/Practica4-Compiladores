@@ -60,6 +60,9 @@ WS          [ \t\r\n]+
 "/"                     { return TOK_DIV; }
 "%"                     { return TOK_MOD; }
 
+"<<"                    { return TOK_LSHIFT; }
+">>"                    { return TOK_RSHIFT; }
+
 "("                     { return TOK_LPAREN; }
 ")"                     { return TOK_RPAREN; }
 "{"                     { return TOK_LBRACE; }
