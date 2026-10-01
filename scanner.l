@@ -32,9 +32,9 @@ WS          [ \t\r\n]+
 "niman"                 { return TOK_KW_ELSE; }
 "ihcuac"                { return TOK_KW_WHILE; }
 "cecen"                 { return TOK_KW_FOR; }
-"cuepa "                { return TOK_KW_RETURN; }
-"break"                 { return TOK_KW_BREAK; }
-"continue"              { return TOK_KW_CONTINUE; }
+"cuepa"                 { return TOK_KW_RETURN; }
+"kuepa"                 { return TOK_KW_BREAK; }
+"toca"                  { return TOK_KW_CONTINUE; }
 
 "++"                    { return TOK_INC; }
 "--"                    { return TOK_DEC; }
