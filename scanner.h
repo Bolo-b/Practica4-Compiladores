@@ -50,6 +50,9 @@ typedef enum ScannerToken {
 	TOK_DIV,
 	TOK_MOD,
 
+    TOK_LSHIFT,
+    TOK_RSHIFT,
+
 	TOK_LPAREN,
 	TOK_RPAREN,
 	TOK_LBRACE,

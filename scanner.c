@@ -67,6 +67,9 @@ const char *scanner_token_name(int token)
 		case TOK_DIV: return "DIV";
 		case TOK_MOD: return "MOD";
 
+		case TOK_LSHIFT: return "LSHIFT";
+		case TOK_RSHIFT: return "RSHIFT";
+
 		case TOK_LPAREN: return "LPAREN";
 		case TOK_RPAREN: return "RPAREN";
 		case TOK_LBRACE: return "LBRACE";
